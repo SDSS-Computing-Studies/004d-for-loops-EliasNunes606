@@ -12,5 +12,6 @@ example 3b.py
 
 # in this loop example, no starting value is given
 # the loop will start at 0, and continue. It will not include 10, but will stop at 9
-for i in range(10):
+
+for i in range(1,10):
     print(i)
