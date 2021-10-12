@@ -17,6 +17,28 @@ example:
 Enter number:4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
-Number = int(input("Enter a integer"))
-print(Number, Number*2, Number*3, Number*4, Number*5, Number*6, Number*7, Number*8, Number*9, Number*10, Number*11, Number*12)
- 
+number = int( input("Enter a number "))
+for mult in range(1,13):
+    total = number*mult
+    print(total, end=' ')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
