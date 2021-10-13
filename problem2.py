@@ -37,3 +37,6 @@ example:
 Enter a number: -4
 Invalid input
 """
+number = int(input("Enter a Number:"))
+if number is < 0 :
+    print("Invalid Input")
