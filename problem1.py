@@ -22,3 +22,9 @@ enter a number:4
 ****
 
 """
+star = "*"
+number = int(input("Enter a number:"))
+for line in range(number):
+    bon = int(number)
+    isbad = number*star
+    print(isbad)
